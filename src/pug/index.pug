@@ -1,0 +1,296 @@
+doctype html
+html(lang='en')
+
+    head
+
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        meta(name='description', content='')
+        meta(name='author', content='')
+
+        title Portfolio - Caitlyn St.Andre
+
+        link(rel='icon', type='image/x-icon', href='assets/img/favicon.ico')
+        link(href='https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css', rel='stylesheet')
+
+        // Font Awesome icons (free version)
+        script(src='https://use.fontawesome.com/releases/v6.3.0/js/all.js', crossorigin='anonymous')
+
+        // Google fonts
+        link(href='https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700', rel='stylesheet', type='text/css')
+        link(href='https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i', rel='stylesheet', type='text/css')
+
+        // Core theme CSS (includes Bootstrap)
+        link(href='css/styles.css', rel='stylesheet')
+
+    body#page-top
+
+        // Navigation
+        nav#sideNav.navbar.navbar-expand-lg.navbar-dark.bg-primary.fixed-top
+            a.navbar-brand.js-scroll-trigger(href='#page-top')
+                span.d-block.d-lg-none Caitlyn St.Andre
+                span.d-none.d-lg-block
+                    img.img-fluid.img-profile.rounded-circle.mx-auto.mb-2(src='assets/img/profile.jpg', alt='...')
+            button.navbar-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
+                span.navbar-toggler-icon
+            #navbarResponsive.collapse.navbar-collapse
+                ul.navbar-nav
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#about') About
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#projects') Projects
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#experience') Experience
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#education') Education
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#skills') Skills
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#contact') Contact
+
+        // Page Content
+        .container-fluid.p-0
+
+            // About
+            section#about.resume-section
+                .resume-section-content
+                    h1.mb-0
+                        | Caitlyn
+                        span.text-primary St.Andre
+                    .subheading.mb-5
+                        | Full-Stack Software Engineer
+                    p.lead.mb-5
+                        | Hi! I’m a Full-Stack Software Engineer. My interest in coding started back in middle school with Myspace. I would spend hours playing around with HTML and CSS to perfect my layout. Over the last couple of years, I have been advancing my career in a data-driven direction. I took an online course through Udemy to learn SQL which I now use frequently in my current position. My passion for continued learning led me to find classes in JavaScript and Python. My solid foundation in web development, coupled with my data-driven mindset, equips me to tackle complex software challenges. I approach problem-solving with a learning mindset, always seeking opportunities to adapt and grow in this field.
+
+            hr.m-0
+
+            // Projects
+            section#projects.portfolio
+              h2.mb-5 Projects
+                .portfolio-section
+                    .portfolio-content
+                      .img-box
+                        p.img-title Amazon Clone
+                        a(href="https://amazon-app-yqe5.onrender.com", target='_blank')
+                          img.box-image(src='./assets/img/project/amazon_display.png', alt='amazon_display')
+                        .link-box
+                            a(href="https://amazon-app-yqe5.onrender.com", target='_blank')
+                                p.link-header Live Link
+                            a(href='https://github.com/cstandre/capstone_project', target='_blank')
+                                p.link-header Source Code
+                      .img-box
+                        p.img-title SpotiPy App
+                        a(href="https://spotipy-app.onrender.com/", target='_blank')
+                          img.box-image(src='./assets/img/project/spotipy-app.png', alt='spotipy-app')
+                        .link-box
+                            a(href="https://spotipy-app.onrender.com/", target='_blank')
+                                p.link-header Live Link
+                            a(href='https://github.com/Winter3531/Group_project_clone', target='_blank')
+                                p.link-header Source Code
+                        //- a(href="url3")
+                        //-   img.box-image(src='./assets/img/project/image3.png', alt='Image 3')
+            hr.m-0
+
+            // Experience
+            section#experience.resume-section
+               .resume-section-content
+                    h2.mb-5 Experience
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Operations Analysis
+                            .subheading.mb-3 Willamette Dental Group
+                            p
+                                | Spearheaded company-wide adoption of a digital intake form, reducing new patient lobby wait time by 3 minutes.
+                            p
+                                | Collaborated internally to design and implement a comprehensive form in our EHR system, capturing all necessary information.
+                            p
+                                | Developed and Deployed a scoring SharePoint form for external consultants. Implemented advanced logic to calculate the total and return a letter grade.
+                        .flex-shrink-0
+                            span.text-primary May 2022 - Present
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Administrative Assistant
+                            .subheading.mb-3 Willamette Dental Group
+                            p
+                                | Conducted daily audits of schedules for 6 General dentists, implementing modifications based on trends resulting in a 7.32% increase in patient access.
+                            p
+                                | Coordinated paid time off and leave of absence for 40+ employees while maintaining recommended staffing ratios.
+                            p
+                                | Analyzed company strategic goals weekly and created action plans with stakeholders when necessary.
+                        .flex-shrink-0
+                            span.text-primary August 2019 - May 2022
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Regional Operations Specialist
+                            .subheading.mb-3 Willamette Dental Group
+                            p
+                                | Created and executed a comprehensive “Power Outage Survival Guide” to ensure exceptional patient care during power outages.
+                            p
+                                | Assisted clinic managers in defining and achieving site-specific goals and objectives for 12 offices.
+                            p
+                                | Collaborated with a team to develop and deliver a training session at an all-managers meeting, facilitating a smooth transition from Kronos to UGK and ensuring all users were proficient in navigating the system.
+                        .flex-shrink-0
+                            span.text-primary January 2019 - August 2019
+
+            hr.m-0
+
+            // Education
+            section#education.resume-section
+                .resume-section-content
+                    h2.mb-5 Education
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 App Academy
+                            p
+                                | Completed an intensive 1,000+ hours online program focused on full-stack software development with a <3% acceptance rate.
+                            p
+                                | Collaborated with peers on team projects, fostering effective communication and teamwork skills.
+                            p
+                                | Mastered multiple programming languages, frameworks, and tools essential for creating robust and scalable websites.
+                            p
+                                | Demonstrated expertise in developing RESTful APIs to enable seamless communication between front-end and back-end systems.
+
+                        .flex-shrink-0
+                            span.text-primary July 2022 - July 2023
+            hr.m-0
+
+            // Skills
+            section#skills.resume-section
+                .resume-section-content
+                    h2.mb-5 Skills
+                    .subheading.mb-3 Programming Languages & Tools
+                    ul.list-inline.dev-icons
+                        li.list-inline-item
+                            // JS
+                            i.fab.fa-js-square
+                        li.list-inline-item
+                            // Python
+                            i.fab.fa-brands.fa-python
+                        li.list-inline-item
+                            // Express
+                            i.devicon-express-original
+                        li.list-inline-item
+                            // Flask
+                            i.devicon-flask-original
+                        li.list-inline-item
+                            // Sequelize
+                            i.devicon-sequelize-plain
+                        li.list-inline-item
+                            // SQLAlchemy
+                            i.devicon-sqlalchemy-plain
+                        li.list-inline-item
+                            // SQLite
+                            i.devicon-sqlite-plain
+                        li.list-inline-item
+                            // React
+                            i.devicon-react-original
+                        li.list-inline-item
+                            // Redux
+                            i.devicon-redux-original
+                        li.list-inline-item
+                            // HTML
+                            i.fab.fa-html5
+                        li.list-inline-item
+                            // CSS
+                            i.fab.fa-css3-alt
+                        li.list-inline-item
+                            // Canva
+                            i.devicon-canva-original
+                        li.list-inline-item
+                            // Oracle
+                            i.devicon-oracle-original
+                        li.list-inline-item
+                            // VSCode
+                            i.devicon-visualstudio-plain
+                        //- li.list-inline-item
+                        //-     i.fab.fa-node-js
+                        //- li.list-inline-item
+                        //-     i.fab.fa-sass
+                        //- li.list-inline-item
+                        //-     i.fab.fa-less
+                        //- li.list-inline-item
+                        //-     i.fab.fa-wordpress
+                        //- li.list-inline-item
+                        //-     i.fab.fa-gulp
+                        //- li.list-inline-item
+                        //-     i.fab.fa-grunt
+                        //- li.list-inline-item
+                        //-     i.fab.fa-npm
+
+            hr.m-0
+
+            // Contact
+            section#contact.resume-section
+              .resume-section-content
+                h2.mb-5 Let's Connect
+                .contact-content
+                  a.contact-items(href="mailto:caitlynstandre@gmail.com", target="_blank")
+                    i.fa-regular.fa-envelope
+                    span.contact-link caitlynstandre@gmail.com
+                .contact-content
+                  a.contact-items(href="https://www.linkedin.com/in/caitlyn-st-andre/", target="_blank")
+                    i.fa-brands.fa-linkedin
+                    span.contact-link caitlyn-st-andre
+                .contact-content
+                  a.contact-items(href="https://github.com/cstandre", target="_blank")
+                    i.fa-brands.fa-github
+                    span.contact-link cstandre
+                .contact-content
+                  a.contact-items(href="https://docs.google.com/document/d/1ev2AXj7uQfulwvDM2bWYfRYDzyjSIDc7xywQe97F6Ek/export?format=pdf", target="_blank")
+                    i.fa-regular.fa-file
+                    span.contact-link Resume
+            hr.m-0
+
+            //- // Awards
+            //- section#awards.resume-section
+            //-     .resume-section-content
+            //-         h2.mb-5 Awards & Certifications
+            //-         ul.fa-ul.mb-0
+            //-             li
+            //-                 span.fa-li
+            //-                     i.fas.fa-trophy.text-warning
+            //-                 | Google Analytics Certified Developer
+            //-             li
+            //-                 span.fa-li
+            //-                     i.fas.fa-trophy.text-warning
+            //-                 | Mobile Web Specialist - Google Certification
+            //-             li
+            //-                 span.fa-li
+            //-                     i.fas.fa-trophy.text-warning
+            //-                 | 1
+            //-                 sup st
+            //-                 | Place - University of Colorado Boulder - Emerging Tech Competition 2009
+            //-             li
+            //-                 span.fa-li
+            //-                     i.fas.fa-trophy.text-warning
+            //-                 | 1
+            //-                 sup st
+            //-                 | Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)
+            //-             li
+            //-                 span.fa-li
+            //-                     i.fas.fa-trophy.text-warning
+            //-                 | 2
+            //-                 sup nd
+            //-                 | Place - University of Colorado Boulder - Emerging Tech Competition 2008
+            //-             li
+            //-                 span.fa-li
+            //-                     i.fas.fa-trophy.text-warning
+            //-                 | 1
+            //-                 sup st
+            //-                 | Place - James Buchanan High School - Hackathon 2006
+            //-             li
+            //-                 span.fa-li
+            //-                     i.fas.fa-trophy.text-warning
+            //-                 | 3
+            //-                 sup rd
+            //-                 | Place - James Buchanan High School - Hackathon 2005
+
+        // Bootstrap core JS
+        script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js')
+
+        // Core theme JS
+        script(src='js/scripts.js')
